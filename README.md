@@ -4,5 +4,4 @@ O mesmo utiliza a tecnologia Bluetooth para enviar e receber mensagens na rede
 
 Autores: 
 
-Matheus Simões Minguini
-Luis Fernando 
+Matheus Simões Minguini e Luis Fernando 
