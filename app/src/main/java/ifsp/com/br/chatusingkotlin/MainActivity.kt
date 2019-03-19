@@ -32,6 +32,8 @@ import br.edu.ifsp.scl.btchatsdmkt.BluetoothSingleton.Constantes.TEMPO_DESCOBERT
 import br.edu.ifsp.scl.btchatsdmkt.BluetoothSingleton.adaptadorBt
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.IOException
+import ifsp.com.br.chatusingkotlin.R
+
 
 class  MainActivity : AppCompatActivity() {
     // Referências para as threads filhas
@@ -109,6 +111,7 @@ class  MainActivity : AppCompatActivity() {
             .setSingleChoiceItems(listaNomesBtsENcontrados.toTypedArray(), -1, {dialog, which ->  trataSelecaoServidor(dialog, which)})
             .create()
 
+        escolhaDispositivoDialog.show();
         escolhaDispositivoDialog.show();
     }
 
